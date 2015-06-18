@@ -1,0 +1,36 @@
+Automation Project 
+
+open /  
+click link=Navigation  
+clickAndWait link=Resources  
+verifyTitle Resources  
+click link=Navigation  
+clickAndWait css=li.page.pull-left > a[title="Pricing"]  
+verifyTitle Sauce Labs: Pricing  
+click link=Navigation  
+clickAndWait xpath=(//a[contains(text(),'Features')])[3]  
+verifyTitle Sauce Labs: Features  
+click link=Navigation  
+clickAndWait css=li.page.pull-left > a[title="Docs"]  
+verifyTitle Sauce Labs Docs  
+goBackAndWait   
+click link=Navigation  
+clickAndWait link=Sign up  
+verifyTitle Sauce Labs: Sign Up for a Free Trial  
+click link=Navigation  
+clickAndWait xpath=(//a[contains(text(),'Company')])[2]  
+verifyTitle Sauce Labs: Values  
+click link=Navigation  
+clickAndWait css=li.page.pull-left > a[title="Enterprise"]  
+verifyTitle Sauce Labs: Enterprise-grade testing on Sauce  
+click link=Navigation  
+clickAndWait link=Login  
+verifyTitle Sauce Labs: Login  
+goBackAndWait   
+click link=Navigation  
+clickAndWait link=Community  
+verifyTitle Open Sauce  
+click link=Navigation  
+clickAndWait link=Solutions  
+verifyTitle Selenium Testing by Sauce Labs  
+clickAndWait link=Sauce Labs  
